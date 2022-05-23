@@ -3,15 +3,15 @@
 return array(
 
     /*
-	|--------------------------------------------------------------------------
-	| Validation Language Lines
-	|--------------------------------------------------------------------------
-	|
-	| The following language lines contain the default error messages used by
-	| the validator class. Some of these rules have multiple versions such
-	| as the size rules. Feel free to tweak each of these messages here.
-	|
-	*/
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
 
     "accepted"                  => "O campo :attribute deve ser aceite.",
     "active_url"                => "O campo :attribute não é um URL válido.",
@@ -113,7 +113,7 @@ return array(
     "after_or_equal"            => "O campo :attribute deve ser uma data posterior ou igual a :date.",
     "before_or_equal"           => "O campo :attribute deve ser uma data anterior ou igual a :date.",
     "dimensions"                => "O campo :attribute tem dimensões de imagem inválidas.",
-    "distinct"                  => 'O campo :attribute field has a duplicate value.',
+    "distinct"                  => "O campo :attribute field has a duplicate value.",
     "file"                      => "O campo :attribute deve ser um ficheiro.",
     "filled"                    => "O campo :attribute deve conter um valor.",
     "gt"                        => array(
@@ -161,7 +161,7 @@ return array(
      * 2.5.1
      */
     "valid_twig"                => "O campo :attribute é inválido. Por favor utilize o botão 'Pre-visualizar' para detalhes do erro.",
-    
+
     /*
      * 3.0.0
      */
@@ -177,7 +177,7 @@ return array(
      * 3.5.0
      */
     'phone'                     => "The supplied phone number is invalid.",
-    
+
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
@@ -197,7 +197,7 @@ return array(
             "required" => "Um ou mais tipos de self-service devem ser selecionados.",
         ),
         "category.*.categories" => array(
-            'required' => "Uma ou mais categorias são necessárias quando um tipo self-service for selecionado.",
+            "required" => "Uma ou mais categorias são necessárias quando um tipo self-service for selecionado.",
             "exists"   => "Uma ou mais das categorias selecionadas são inválidas.",
         ),
         "brand.*" => array(
@@ -206,15 +206,15 @@ return array(
     ),
 
     /*
-	|--------------------------------------------------------------------------
-	| Custom Validation Attributes
-	|--------------------------------------------------------------------------
-	|
-	| The following language lines are used to swap attribute place-holders
-	| with something more reader friendly such as Email Address instead
-	| of "email". This simply helps us make messages a little cleaner.
-	|
-	*/
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap attribute place-holders
+    | with something more reader friendly such as Email Address instead
+    | of "email". This simply helps us make messages a little cleaner.
+    |
+    */
 
     "attributes" => array(),
 

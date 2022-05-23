@@ -97,10 +97,19 @@ return array(
      * 3.3.0
      */
     "user_has_organisation"             => "Utilizador tem organização",
-    
+
     /*
      * 3.5.0
      */
     "user_phone_number"                 => "Telefone do Utilizadorr",
 
+    /*
+     * 3.7.0
+     */
+    "user_organisation_access_level"    => "User organisation access level",
+
+    /*
+     * 4.0.0
+     */
+    "last_message_content_exc_notes"    => "Last message content (excluding notes)",
 );

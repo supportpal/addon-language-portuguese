@@ -290,7 +290,7 @@ return array(
     "thank_you_confirm"             => "Obrigado por confirmar a titularidade do seu endereço de e-mail.",
     "use_gravatar"                  => "Use Gravatar",
     "use_gravatar_desc"             => "Gravatar is a service which offers a globally recognised avatar to it's registered users. The help desk will automatically send a request to secure.gravatar.com with an MD5 hash of each user email address to assist in displaying an avatar. The MD5 hash may also be publicly visible in the frontend HTML. We recommend to update your privacy policy if enabling this feature.",
-    
+
     /*
      * 2.6.0
      */
@@ -338,5 +338,15 @@ return array(
     "current_session"               => "Current Session",
     "logged_in"                     => "Logged In",
     "revoke_session_desc"           => "Revoking a session will log the device out of the operator panel. It will also revoke all remember me tokens for other devices.",
+
+    /**
+     * 4.0.0
+     */
+    "verify_phone_number"           => "Verify Phone Number",
+    "verify_phone_method"           => "Select the method you wish to verify your phone number.",
+    "verify_phone_code_sent"        => "A verification code has been sent to your phone number, please enter this code below.",
+    "verify_phone_code_send_error"  => "An error occurred while sending the verification code. Please try again later.",
+    "verify_phone_code_error"       => "Code could not be verified.",
+    "logged_in_as"                  => "Logged in as :name",
 
 );

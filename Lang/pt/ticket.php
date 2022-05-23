@@ -59,7 +59,6 @@ return array(
     "department_applicable"     => "Departamentos Aplicáveis",
     "department_applicable_desc" => "Os departamentos nos quais a prioridade estará disponível para os utilizadores seleccionarem. Aplica-se apenas ao FrontEnd, pois todas as prioridades estarão disponíveis para os operadores de todos os departamentos",
 
-    "due_to_be_sent"            => "Prazo para ser enviado",
     "send_now"                  => "Enviar agora",
 
     "tag"                       => "Tag|Tags",
@@ -107,7 +106,6 @@ return array(
     "email_operators_desc"      => "Seleccione se pretende encaminhar as respostas do operador para outros operadores. Por defeito, verifica a opção \"Notificar os Operadores\" no painel do operador e enviará automaticamente um e-mail para respostas de e-mail por operadores.",
     // Department email templates
     "new_ticket_opened"         => "Novo Ticket Aberto",
-    "reply_to_locked"           => "Responder a Ticket Bloqueado",
     "waiting_for_response"      => "Aguardando Resposta",
     "ticket_auto_closed"        => "Ticket Fechado Automaticamente",
     "closed_by_operator"        => "Fechado por Operador",
@@ -132,10 +130,8 @@ return array(
     "bad_not_satisfied"         => "Mau, não estou satisfeito",
     "feedback_not_found"        => "Não foi possível aceitar o seu feedback, por favor, abra um novo ticket com a nossa equipa caso pretenda partilhar o seu feedback.",
     "feedback_malformed_token"  => "Não foi possível aceitar o seu feedback devido a uma má formação do Token. Por favor, abra um novo ticket com a nossa equipa caso pretenda partilhar o seu feedback.",
-    "feedback_already_done"     => "Você já forneceu o seu feedback para este Ticket, Obrigado.",
     "feedback_expired"          => "O ticket já foi resolvido há algum tempo e, infelizmente, já não é possível efectuar a sua avaliação.",
     "feedback_questions"        => "Caso seja possível dispensar alguns minutos, por favor responda às seguintes questões para nos ajudar a melhorar ainda mais o suporte que oferecemos.",
-    "feedback_thank_you"        => "Obrigado por fornecer o seu feedback sobre este Ticket",
     "feedback_for_ticket"       => "Feedback para o Ticket #:number",
     "feedback_rating_desc"      => "O suporte recebido neste Ticket foi avaliado como <strong>:rating</strong> pelo utilizador.",
 
@@ -302,8 +298,6 @@ return array(
 
     "track_ticket_not_found"    => "Could not find ticket with ticket number and user email address entered.",
 
-    "channel_deactivated"       => "The ticket channel is currently deactivated, a reply cannot be posted.",
-
     "type_in_tags"              => "Escrever tags",
 
     /*
@@ -326,7 +320,6 @@ return array(
     "default_reply_options_desc" => "Selecione as opções pré-definidas de resposta para serem definidas quando abre ou responde a um ticket. A opção ':reply_option' será selecionada com base na definição ':department_option' do departamento.",
     "associate_response_tag"    => "Associate canned response with a tag...",
     "canned_response_tags_desc" => "Add tags which may help finding a canned response when replying to a ticket.",
-    "loading_tags"              => "Loading tags",
     "append_ip_address"         => "Append IP Address",
     "append_ip_address_desc"    => "Append the IP address of users to their messages when they are opening and replying to tickets from the frontend.",
     "unassign_operator"         => "Unassign Operator",
@@ -500,11 +493,6 @@ return array(
     "merge_tickets"             => "Juntar Tickets",
 
     /*
-     * 2.5.1
-     */
-    "channel_account_removed"   => "The ticket channel account has been deactivated or removed, a reply cannot be posted.",
-
-    /*
      * 2.6.0
      */
     "follow_ups"                => "Follow Ups",
@@ -536,5 +524,25 @@ return array(
     "unresolved"                => "Por Resolver",
     "resolved"                  => "Resolvido",
     "manage_oauth_options"      => "To add or manage OAuth options, please visit the <a href=\":route\">Third-Party Integrations</a> page.",
+
+    /*
+     * 3.4.0
+     */
+    "feedback_saved"            => "We've saved your feedback.",
+    "how_was_the_help"          => "How was the help you received?",
+    "update_feedback"           => "Update Feedback",
+    "verify_user"               => "Please verify the authenticity of the user.",
+    "web_channel_name"          => "Web",
+    "web_channel_desc"          => "Tickets opened through the frontend interface for users or operator panel for operators.",
+    "email_channel_name"        => "Email",
+    "email_channel_desc"        => "Tickets opened from processing incoming email.",
+    "api_channel_name"          => "API",
+    "api_channel_desc"          => "Tickets and replies posted through the API.",
+
+    /*
+     * 4.0.0
+     */
+    "on_behalf_of"              => "Created on behalf of",
+    "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
 
 );

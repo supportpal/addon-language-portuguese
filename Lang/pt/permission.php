@@ -62,17 +62,11 @@ return array(
     "tag"               => "Gerir Tags",
 
     /*
-     * 2.0.2
-     */
-    // Core
-    "plugin"            => "Ver Plugins",
-
-    /*
      * 2.0.3
      */
     // User
     "operator"          => "Gerir Operadores",
-    
+
     /*
      * 2.1.0
      */
@@ -103,7 +97,7 @@ return array(
     // Ticket
     "ticket_delete"     => "Eliminar Tickets Permanentemente",
     "ticket_trash"      => "Mover Tickets para o Lixo",
-    
+
     /*
      * 3.0.0
      */
@@ -124,5 +118,11 @@ return array(
      * 3.7.0
      */
     "background_jobs"   => "View Background Jobs",
+
+    /*
+     * 4.0.0
+     */
+    "addon"             => "View and Manage Add-ons",
+    "system_health"     => "View System Health",
 
 );

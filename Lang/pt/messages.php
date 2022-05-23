@@ -42,7 +42,7 @@ return array(
     "error_action"          => "Falha ao realizar a operação.",
 
     "error_embed_image"     => "Falhou o Upload da imagem.",
-    
+
     "unauthorised"          => "Não autorizado",
     "not_authorised"        => "Não está autorizado a completar esta ação.",
     "not_permitted"         => "Não está autorizado a visualizar a página solicitada. Se acha que esta mensagem foi mostrada por engano, entre em contacto com o suporte.",
@@ -147,7 +147,7 @@ return array(
     "success_trashed"       => "O item :item foi movido para o lixo!",
     "error_trashed"         => "Falha ao mover o item :item para o lixo.",
     "blocked_by_rule"       => "O pedido foi bloqueado pela regra de spam ':text'.",
-    
+
     /*
      * 3.0.0
      */

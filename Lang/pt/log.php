@@ -40,8 +40,6 @@ return array(
     "organisation_profile_updated"      => "Actualizado perfil da organização :rel.",
     "organisation_owner_updated"        => "Organização transferida :rel para propriedade de :new_value.",
 
-    "user_emailed"                      => "Enviado email para :rel.",
-
     "mass_email_queued"                 => ":new_value emails colocados em fila para entrega.",
     "mass_email_sent"                   => "Enviados :new_value emails da fila.",
 
@@ -58,10 +56,6 @@ return array(
     "ticket_opened"                     => "Aberto novo ticket #:rel.",
     "ticket_opened_on_behalf"           => "Aberto novo ticket #:rel em nome de :new_value.",
     "ticket_opened_email"               => "Ticket importado por email #:rel.",
-
-    "ticket_followup_set"               => "Um acompanhamento foi configurado no ticket #:rel.",
-    "ticket_followup_updated"           => "O acompanhamento do ticket #:rel foi actualizado.",
-    "ticket_followup_deleted"           => "O acompanhamento do ticket #:rel foi eliminado.",
 
     "ticket_message_reply"              => "Inserida nova resposta no ticket #:rel.",
     "ticket_message_note"               => "Inserida nova nota no ticket #:rel.",
@@ -103,22 +97,10 @@ return array(
     "ticket_split_from"                 => "Mensagens separadas do ticket #:rel para o novo ticket #:new_value.",
     "ticket_split_to"                   => "Mensagens separadas do ticket #:old_value para o novo ticket #:rel.",
 
-    "ticket_email_user"                 => "Email enviado ao utilizador.",
-    "ticket_email_operators"            => "Enviado email aos operadores.",
-
-    "ticket_feedback_dequeued"          => "Removido o pedido de formulário de feedback para o ticket #:rel da fila.",
-    "ticket_feedback_form_sent"         => "Enviado formulário de feedback para o ticket #:rel.",
-
     "ticket_attachment_saved"           => "Adicionado anexo ao ticket #:rel.",
     "ticket_attachment_deleted"         => "Eliminado anexo do ticket #:rel.",
 
     "ticket_throttled"                  => "Rejeitado novo ticket de :rel devido a limitação.",
-
-    /*
-     * 2.0.2
-     */
-    "ticket_email_operator_group"       => "Enviado email ao grupo de operadores :new_value.",
-    "ticket_email_user_group"           => "Enviado email ao grupo de utilizadores :new_value.",
 
     /*
      * 2.0.3
@@ -137,11 +119,6 @@ return array(
     "ticket_added_cc"                   => "Email(s) :new_value adicionado endereço cc para o ticket #:rel.",
     "ticket_removed_cc"                 => "Email(s) :old_value removido endereço cc para o ticket #:rel.",
     "invalid_department_brand"          => "Falhou alteração do departmento ':new_value' no ticket #:rel, o departamento não pertence à marca do ticket.",
-
-    /*
-     * 2.1.1
-     */
-    "ticket_message_updated"            => "Actualizada a mensagem :message_id no ticket #:rel.",
 
     /*
      * 2.1.2
@@ -225,5 +202,5 @@ return array(
      * 3.0.0
      */
     "selfservice_article_neutral"       => "Artigo :rel com avaliação neutra.",
-    
+
 );

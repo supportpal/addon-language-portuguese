@@ -21,7 +21,7 @@ return array(
 
     // Maintenance
     "maintenance"               => "Encontramo-nos de momento a efectuar uma manutenção",
-    'maintenance_desc'          => "O nosso Helpdesk encontra-se temporariamente indisponível devido a uma manutenção. Agradecemos a sua compreensão enquanto realizamos a intevenção. Voltaremos em breve.",
+    "maintenance_desc"          => "O nosso Helpdesk encontra-se temporariamente indisponível devido a uma manutenção. Agradecemos a sua compreensão enquanto realizamos a intevenção. Voltaremos em breve.",
     "maintenance_active"        => "Modo de Manutenção Activo.",
 
     // About
@@ -116,7 +116,6 @@ return array(
 
     // Plugins
     "plugins"                   => "Plugin|Plugins",
-    "installed_plugins"         => "Plugins Instalados",
     "visit_plugin"              => "Visitar Site do Plugin",
 
     // Messages
@@ -196,7 +195,7 @@ return array(
     // Languages
     "no_enabled_languages"      => "Failed trying to update the :item. At least one language must be enabled at all times.",
 
-   // General Settings
+    // General Settings
     "locale"                    => "Localização",
     "simpleauth"                => "SimpleAuth",
     "admin_folder"              => "Pasta Admin",
@@ -319,7 +318,7 @@ return array(
      */
     "disabling_default_language" => "This is currently set as a default language. Disabling the language will set another enabled language as the default language instead.",
 
-   /*
+    /*
      * 2.3.1
      */
     "javascript_required"       => "Please enable JavaScript in order to use this page.",
@@ -382,7 +381,7 @@ return array(
     "record_trash_relations"    => "The records will be moved to the trash and then permanently deleted after :number days along with the following related data: :relations. This will impact reports.",
     "uninstall_plugable_warning" => "Uninstalling the :plugable will delete all associated files and data. We recommend to deactivate the :plugable instead.",
     "web_settings_desc"         => "The web channel settings apply to the frontend. By default tickets can be accessed by anyone who knows a unique ticket URL. You may wish to disable this and require users to login before they can access ticket information.",
-    
+
     /*
      * 2.6.0
      */
@@ -405,7 +404,6 @@ return array(
     "heading5"                  => "Cabeçalho 5",
     "heading6"                  => "Cabeçalho 6",
     "upload"                    => "Upload",
-    "upload_label"              => "Arraste os ficheiros aqui ou clique para enviar",
     "more_formatting"           => "Mais Formatação",
     "clearformat"               => "Limpar Formatação",
     "bold"                      => "Negrito",
@@ -452,15 +450,6 @@ return array(
     "ticket_desc2"              => "The ticket grid can be ordered adjusted to your preference and filtered as needed.",
     "zip_extension_required"    => "The Zip PHP extension is not installed. Please install it and try again.",
     "zip_file_not_downloaded"   => "The zip file could not download. Verify that you are able to access: :url",
-    "plugin_basic_info"         => "Please provide some basic information about your plugin.",
-    "plugin_author_name"        => "Nome do Autor",
-    "plugin_author_uri"         => "URI do Autor (link para o seu website)",
-    "plugin_vendor_name"        => "Vendor name (name of your company, can be same as author name)",
-    "plugin_name"               => "Nome do Plugin",
-    "plugin_description"        => "Descrição do Plugin",
-    "plugin_already_exists"     => "Plugin já existe!",
-    "plugin_creating"           => "Criando plugin...",
-    "plugin_ready"              => "Plugin ready in :directory! Build something amazing.",
 
     /*
      * 3.3.0
@@ -473,9 +462,9 @@ return array(
     "create_credentials"        => "Please create authentication credentials via the <a href=\":route\">Third-Party Integration</a> page.",
     "oauth_data_missing"        => "The client ID and/or secret haven't been set and are required. Once you have set it up as per the below instructions, close the pop-up and re-validate.",
     "configure_after_brand_created" => "This may be configured after the brand has been created.",
-    'get_access_token'          => 'Get Access Token',
-    'reset_access_token'        => 'Reset Access Token',
-  
+    "get_access_token"          => "Get Access Token",
+    "reset_access_token"        => "Reset Access Token",
+
     /*
      * 3.4.0
      */
@@ -483,9 +472,6 @@ return array(
     "brand_name_desc"           => "O nome da marca como será visualizado pelos utilizadores finais.",
     "supportpal_announcements"  => "SupportPal Announcements",
     "add_selectize"             => "Add <strong>:item</strong>...",
-    "plugin_author_uri_short"   => "Author URI",
-    "plugin_vendor_name_short"  => "Vendor Name",
-    "open_link_in_new_tab"      => "Open link in new tab",
     "general_settings"          => "Configure general settings",
     "configure_brand"           => "Configure brand",
     "configure_department"      => "Configure department",
@@ -527,5 +513,82 @@ return array(
      */
     "background_jobs"           => "Background Jobs",
     "background_jobs_not_processing" => "Background jobs are not currently being processed, view <a target='_blank' href='https://docs.supportpal.com/current/Background+Jobs#Troubleshooting'>troubleshooting steps</a>.",
- 
+
+    /*
+     * 4.0.0
+     */
+    "addon"                     => "Add-on|Add-ons",
+    "addon_already_exists"      => "An add-on already exists at this path: :path",
+    "addons_marketplace"        => "Marketplace",
+    "addons_missing_valid_artifact" => "Add-on does not have a valid archive.",
+    "checksum_not_matched"      => "The downloaded file failed checksum verification.",
+    "invalid_archive_format"    => "Artifact should not include other directories other than the add-on.",
+    "downloading_version"       => "Downloading add-on version :version to :path...",
+    "extracting_addon"          => "Extracting add-on files...",
+    "activating_addon"          => "Activating add-on...",
+    "addon_install_success"     => "Add-on installed successfully.",
+    "addon_install_error"       => "Add-on failed to install, please check the application logs for more details.",
+    "addon_latest_version"      => "Add-on is already running the latest version.",
+    "addon_update_success"      => "Add-on updated successfully.",
+    "addon_update_error"        => "Add-on failed to update and has been reverted, please check the application logs for more details.",
+    "addon_basic_info"          => "Please provide some basic information about the add-on.",
+    "addon_author_name"         => "Author name",
+    "addon_author_uri"          => "Author URI (link to your website)",
+    "addon_author_uri_short"    => "Author URI",
+    "addon_vendor_name"         => "Vendor name (name of your company, can be same as author name)",
+    "addon_vendor_name_short"   => "Vendor Name",
+    "addon_name"                => "Add-on name",
+    "addon_description"         => "Add-on description",
+    "addon_creating"            => "Creating add-on...",
+    "addon_ready"               => "Add-on ready in :directory! Build something amazing.",
+    "addon_version_not_supported" => "The available version of the add-on does not support the installed SupportPal version.",
+    "no_addons_found"           => "No add-ons found.",
+    "price"                     => "Price",
+    "one_time"                  => "One Time",
+    "monthly"                   => "Monthly",
+    "quarterly"                 => "Quarterly",
+    "semiannually"              => "Semi-Annually",
+    "annually"                  => "Annually",
+    "biennially"                => "Biennially",
+    "triennially"               => "Triennially",
+    "tag"                       => "Tag|Tags",
+    "login_to_install"          => "<a href=':link'>Login</a> to Install",
+    "marketplace_login_error"   => "Login failed. Please <a target='_blank' href='https://www.supportpal.com/manage/logout.php'>logout</a> and then ensure to log in to the account that has your SupportPal license.",
+    "payment_required"          => "Payment Required",
+    "addon_purchase_info"       => "By clicking the above button, your account will be charged the price shown at the selected billing cycle, and you agree to our <a href=':link' target='_blank'>terms of service</a>.",
+    "addon_cancel_info"         => "Cancelling will immediately deactivate the add-on and stop any further payments being taken.",
+    "system_health"             => "System Health",
+    "system_health_desc"        => "Health checks monitor that the system is performing correctly and notify you when issues arise.",
+    "system_health_errors"      => "One or more <a href=':link'>system health</a> checks are failing.",
+    "app_log_check"             => "Application Log Error Count",
+    "app_log_errors_exist"      => "Application log file for today contains errors, please check the logs by navigating to Utilities -> Logs -> Log File Manager -> :filename",
+    "redis_check"               => "Redis Connection",
+    "web_server_check"          => "Web Server",
+    "web_server_error"          => "Unable to connect to :url",
+    "redirection_rules_check"   => "Redirection Rules",
+    "redirection_rule_error"    => "Server redirection rules must remove /index.php from path. Otherwise attackers can potentially access your files.",
+    "cron_check"                => "Cron",
+    "cron_check_error"          => "The cron is not running.",
+    "cron_check_warning"        => "The following tasks: (:tasks) has not been ran within their expected interval.",
+    "database_check"            => "Database Connection",
+    "disk_usage_check"          => "Free Disk Space",
+    "email_queue_check"         => "Outbound Email Queue",
+    "email_queue_warning"       => "Email queue contains :number emails that require manual attention.",
+    "pipe_check"                => "Email Piping",
+    "file_not_found"            => "File ':path' not found.",
+    "file_not_executable"       => "File ':path' is not executable.",
+    "dependency_resolution"     => "Unable to run health check.",
+    "debug_mode_warning"        => "Debug mode should only be used temporarily.",
+    "custom_colour"             => "Custom Colour",
+    "remove_colour"             => "Remove Colour",
+    "background_colour"         => "Background Colour",
+    "open_link"                 => "Open link",
+    "open_link_in"              => "Open link in...",
+    "new_window"                => "New window",
+    "current_window"            => "Current window",
+    "edit_image"                => "Edit image...",
+    "alternative_description"   => "Alternative description",
+    "browse_image"              => "Browse for an image",
+    "drop_image"                => "Drop an image here",
+
 );

@@ -38,7 +38,7 @@ return array(
      * 2.1.0
      */
     "brand_desc"                => "Escolha em que marcas o campo estará disponível.",
-    
+
     /*
      * 2.3.0
      */

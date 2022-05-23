@@ -34,7 +34,6 @@ return array(
     "operator_replies_desc"     => "O número de respostas de um determinado operador durante um determinado período.",
     "first_response_time"       => "Tempo de Primeira Resposta",
     "first_response_time_desc"  => "O tempo total que demorou aos operadores a responder pela primeira vez ao ticket.",
-    "first_reply_time"          => "Tempo de Primeira Resposta",
     "ticket_count"              => "Contagem de Ticket",
     "lt_1_hour"                 => "<1 Hora",
     "1-3_hour"                  => "1-3 Horas",
@@ -57,8 +56,6 @@ return array(
     "2-4_day"                   => "2-4 Dias",
     "4-7_day"                   => "4-7 Dias",
     "7_plus_day"                => "7+ Dias",
-    "user_feedback"             => "Feedback do Utilizador",
-    "user_feedback_desc"        => "O feedback fornecido pelos utilizadores relativos aos tickets durante um determinado período de tempo.",
     "user_by_country"           => "Utilizadores por País",
     "user_by_country_desc"      => "Este relatório mostra o número de utilizadores por país, incluíndo apenas utilizadores que definiram o país.",
     "user_count"                => "Contagem de Utilizadores",
@@ -95,7 +92,7 @@ return array(
      * 2.5.0
      */
     "total_users_desc"          => "Este relatório mostra quantos utilizadores existem no sistema, divididos por quantos confirmaram o seu endereço de email.",
-    
+
     /*
      * 3.0.0
      */
@@ -108,5 +105,11 @@ return array(
     "responses"                 => "Respostas",
     "answered"                  => "Respondido",
     "unanswered"                => "Por Responder",
+
+    /*
+     * 3.4.0
+     */
+    "first_response_by_operator" => "First Response Time By Operator",
+    "first_response_by_operator_desc" => "The amount of time it took each operator to first reply to a ticket, averaged out over the period.",
 
 );

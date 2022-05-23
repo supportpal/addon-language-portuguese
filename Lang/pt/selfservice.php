@@ -4,7 +4,7 @@ return array(
 
     "popular_items"             => "Os mais vistos",
     "latest_items"              => "Os mais recentes",
-    
+
     "selfservice"               => "Auto-Ajuda",
     "article"                   => "Artigo|Artigos",
     "category"                  => "Categoria|Categorias",
@@ -13,7 +13,7 @@ return array(
     "type"                      => "Tipo|Tipos",
 
     "frontend_icon"             => "Ícon de Frontend",
-    
+
     "no_categories"             => ":type não tem actualmente categorias. Por favor crie uma antes de adicionar um artigo.",
     "no_categories_frontend"    => "Não existem categorias para exibir.",
 
@@ -144,7 +144,7 @@ return array(
      * 2.5.0
      */
     "revision_history"          => "Histórico de Revisão",
-    
+
     /*
      * 3.0.0
      */
@@ -152,4 +152,5 @@ return array(
     "article_feedback"          => "Feedback do Artigo",
     "thank_you_for_feedback"    => "Obrigado pelo seu feedback a este artigo.",
     "frontend_icon_desc"        => "Selecione um ícone <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> para mostrar no Frontend para este tipo. Poderá também pesquisar por um ícone personalizado que não esteja incluído na lista (começando por 'fa-').",
+
 );

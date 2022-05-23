@@ -307,7 +307,7 @@ return array(
     "trash_desc"                => "Registos que estão no lixo há mais de :number dias serão apagados automaticamente.",
     "restore"                   => "Restaurar",
     "delete_forever"            => "Eliminar para sempre",
-    
+
     /*
      * 2.6.0
      */
@@ -398,5 +398,21 @@ return array(
      * 3.7.0
      */
     "download_all"              => "Download All",
-    
+
+    /*
+     * 4.0.0
+     */
+    "install"                   => "Install",
+    "installing"                => "Installing...",
+    "updating"                  => "Updating...",
+    "cancelling"                => "Cancelling...",
+    "ok"                        => "OK",
+    "mark_as_verified"          => "Mark as Verified",
+    "not_verified"              => "Not Verified",
+    "free"                      => "Free",
+    "commercial"                => "Commercial",
+    "purchase"                  => "Purchase",
+    "more_information"          => "More Information",
+    "details"                   => "Details",
+
 );

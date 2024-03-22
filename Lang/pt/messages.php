@@ -9,8 +9,6 @@ return array(
 
     "save_order"            => "A tentar guardar a ordem actualizada dos itens",
 
-    "show_all_results"      => "Mostrar todos os resultados &raquo;",
-
     "are_you_sure"          => "Tem a certeza?",
     "yes_im_sure"           => "Sim, tenho a certeza.",
 
@@ -85,7 +83,6 @@ return array(
 
     "missing_extension"     => "Extensão em falta.",
     "php_ldap_missing"      => "A extensão php-ldap é necessária para utilizar a autenticação LDAP. Por favor, habilite-a e atualize a página.",
-    "php_imap_missing"      => "A extensão php-imap é necessária para utilizar o download de e-mail. Se pretende utilizar o download de e-mail, habilite a extensão e atualize a página.",
 
     /*
      * 2.0.3
@@ -153,5 +150,22 @@ return array(
      */
     "popup_blocked"         => "O seu browser bloqueou uma janela de PopUp. Active as pop-ups e redirecionamentos neste site para utilizar o recurso de visualização.",
     "error_editing_message" => "Ocorreu um erro ao editar esta mensagem.",
+
+    /*
+     * 4.1.1
+     */
+    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
+    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+
+    /*
+     * 4.3.0
+     */
+    "show_all_results"      => "Mostrar todos os resultados &raquo;",
+
+    /*
+     * 5.0.0
+     */
+    "lock_timeout"          => "Lock Timeout",
+    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
 
 );

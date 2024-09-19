@@ -40,8 +40,6 @@ return array(
     "recent_tickets"            => "Tickets recentes",
     "last_message_text"         => "Texto da Última Mensagem",
 
-    "set_due_time"              => "Definir um prazo",
-
     "settings"                  => "Definições do Ticket",
 
     "priority"                  => "Prioridade|Prioridades",
@@ -160,7 +158,6 @@ return array(
     "allowed_files"             => "Tipo de Ficheiros de anexo permitidos",
 
     // Drafts
-    "also_viewing"              => "<strong>:name</strong> também está a ver o Ticket",
     "draft_saved"               => "Rascunho guardado há :time",
     "save_draft"                => "Guardar Rascunho",
     "discard_draft"             => "Descartar Rascunho",
@@ -188,10 +185,6 @@ return array(
     "sla_plan"                  => "SLA Plan|SLA Plans",
     "specific_schedule"         => "Specific Schedules",
     "calendar_hours_24"         => "Calendar Hours (24 Hours)",
-    "resolution_time"           => "Resolution Times",
-    "resolution_time_desc"      => "Set times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used.",
-    "reply_within"              => "Reply within",
-    "resolve_within"            => "Resolve within",
     "plan"                      => "Plan",
     "sla_condition"             => "SLA Conditions",
     "sla_condition_desc"        => "Define the ticket conditions for which new tickets are checked to see if they fall under this plan. If a new ticket fits multiple SLA plans, it will be selected on plan priority, which can be modified by going to the list of plans and reordering.",
@@ -244,7 +237,6 @@ return array(
     "ticket_notes_top"          => "Apenas no topo",
     "ticket_notes_messages"     => "Apenas nas mensagens",
 
-    "captcha_desc"              => "Quando o Captcha deve ser mostrado aos utilizadores que abrem novos tickets.",
     "unregistered_only"         => "Apenas utilizadores não registados",
 
     "allow_unauth_users"        => "Permitir utilizadores não autenticados",
@@ -259,7 +251,6 @@ return array(
     // Email Channel Settings
     "default_priority"          => "Default Priority",
     "default_priority_desc"     => "The default priority set on all incoming tickets via this channel.",
-    "verbose_email_log"         => "Verbose Email Log",
 
     "last_reply"                => "Última Resposta",
     "opened_at"                 => "Aberto Em",
@@ -276,7 +267,6 @@ return array(
     "add_tag"                   => "Adicionar Tag",
 
     "unlock"                    => "Desbloquear",
-    "merge"                     => "Juntar",
     "merged"                    => "Unido",
     "unmerge"                   => "Separar",
     "close_and_lock"            => "Fechar & Bloquear",
@@ -401,7 +391,6 @@ return array(
     "email_user_frontend"       => "Email Users on Tickets Opened at Frontend",
     "email_user_frontend_desc"  => "Select whether users should be notified by email when they open a ticket themselves on the frontend.",
     "department_template_disabled" => "The relevant department email template is disabled, so this email cannot be sent.",
-    "verbose_email_log_desc"    => "If email collection should be logged on file, recommended to keep disabled unless instructed by support for debugging. Five days worth of logs are stored, older log files will be purged automatically by the system.",
 
     /*
      * 2.2.0
@@ -421,7 +410,6 @@ return array(
      */
     "registered_users_desc"     => "Toggle to only show the department to logged in users and only accept emails from users actively registered in the help desk. If enabled, a bounce back email will be sent to unregistered users who email this department, to change or disable the email please see the 'Registered Users Only' template option below.",
     "form_fields_desc"          => "If you'd like to collect additional information when the user provides their feedback, you may set up custom fields to show on the form here. The field type will be locked once the form has been completed by a user.",
-    "feedback_ratings"          => "Customer Satisfaction Ratings (affecting your Customer Satisfaction score)",
     "email_and_other_accounts"  => "Email and other channel accounts",
     "delete_message"            => "Eliminar mensagem",
     "linked_tickets"            => "Tickets Associados",
@@ -454,7 +442,6 @@ return array(
     "select_a_department_email" => "Select a department email...",
     "record_public_desc"        => "Toggle to only let the :record be accessible by yourself.",
     "record_group_desc"         => "If you wish to make the :record visible to only certain operator groups. Leave blank to make visible to all operators.",
-    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
 
     /*
      * 2.4.0
@@ -507,7 +494,6 @@ return array(
      * 3.0.0
      */
     "merge_tickets_into"        => "Selecionar ticket para juntar a",
-    "search_number_or_subject"  => "Pesquisar por número de ticket ou assunto",
     "im_not_sure"               => "Não tenho a certeza",
     "auto_reply_detected"       => "Auto-reply detetado - não serão enviadas notificações para este utilizador(es).",
     "cc_desc"                   => "Poderá adicionar outras pessoas em CC neste ticket inserindo aqui os endereços de e-mail.",
@@ -544,5 +530,47 @@ return array(
      */
     "on_behalf_of"              => "Created on behalf of",
     "reply_canned_be_posted"    => "It is not currently possible to reply to this ticket; the channel or channel account may be disabled.",
+
+    /*
+     * 4.1.0
+     */
+    "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
+    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
+    "check_spam"                => "Check Spam Rules",
+    "check_spam_api_desc"       => "Block messages which match spam rules.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "captcha_desc"              => "Quando o Captcha deve ser mostrado aos utilizadores que abrem novos tickets.",
+
+    /*
+     * 5.0.0
+     */
+    "also_viewing"              => "<strong>:name</strong> também está a ver o Ticket",
+    "mark_as_read"              => "Mark as Read",
+    "mark_as_unread"            => "Mark as Unread",
+    "sla_targets"               => "SLA Target|SLA Targets",
+    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "first_reply_time"          => "First Reply Time",
+    "next_reply_time"           => "Next Reply Time",
+    "resolution_time"           => "Resolution Times",
+    "reply_due_in"              => "Reply due :time",
+    "resolve_in"                => "Resolve :time",
+    "paused_ago"                => "Paused :time",
+    "reply_due_time"            => "Reply due time",
+    "resolution_due_time"       => "Resolution due time",
+    "set_reply_due_time"        => "Set reply due time",
+    "set_resolution_due_time"   => "Set resolution due time",
+
+    /*
+     * 5.2.0
+     */
+    "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
+
+    /*
+     * 5.3.0
+     */
+    "reject_duplicate_emails"   => "Reject Duplicate Emails",
+    "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
+    "duplicate_email_detected"  => "Duplicate email that has already been imported.",
 
 );

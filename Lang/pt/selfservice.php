@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Excerto",
     "associate_tag"             => "Associar artigo com uma tag...",
     "associate_category"        => "Associar artigo com uma categoria...",
-    "published_desc"            => "Se este artigo pode ser visto publicamente. Caso não seja publicado, este poderá continuar a ser visualizado pelo endereço URL directo desde que uma das categorias seja pública.",
     "registered_users_desc"     => "Activar para mostrar o artigo apenas a utilizadores autenticados.",
 
     "comment_by"                => "Comentário por",
@@ -150,12 +149,31 @@ return array(
      */
     "type_protected_desc"       => "Activar para mostrar o conteúdo deste tipo apenas a utilizadores autenticados.",
     "article_feedback"          => "Feedback do Artigo",
-    "frontend_icon_desc"        => "Selecione um ícone <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> para mostrar no Frontend para este tipo. Poderá também pesquisar por um ícone personalizado que não esteja incluído na lista (começando por 'fa-').",
     "comment_deleted"           => "Comment deleted",
 
     /*
      * 5.3.0
      */
     "in_reply_to"               => "in reply to",
+
+    /*
+     * 5.7.0
+     */
+    "comment_notification"      => "New Comment Posted",
+    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "Se este artigo pode ser visto publicamente. Caso não seja publicado, este poderá continuar a ser visualizado pelo endereço URL directo desde que uma das categorias seja pública.",
+    "not_published"             => "Not Published",
+
+    /*
+     * 6.0.0
+     */
+    "frontend_icon_desc"        => "Selecione um ícone <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> para mostrar no Frontend para este tipo. Poderá também pesquisar por um ícone personalizado que não esteja incluído na lista (começando por 'fa-').",
+    "icon_book"                 => "Book",
+    "icon_download"             => "Download",
+    "icon_newspaper"            => "Newspaper",
 
 );

@@ -131,7 +131,6 @@ return array(
     "feedback_expired"          => "O ticket já foi resolvido há algum tempo e, infelizmente, já não é possível efectuar a sua avaliação.",
     "feedback_questions"        => "Caso seja possível dispensar alguns minutos, por favor responda às seguintes questões para nos ajudar a melhorar ainda mais o suporte que oferecemos.",
     "feedback_for_ticket"       => "Feedback para o Ticket #:number",
-    "feedback_rating_desc"      => "O suporte recebido neste Ticket foi avaliado como <strong>:rating</strong> pelo utilizador.",
 
     // Custom fields
     "customfield"               => "Campo de Ticket Personalizado|Campos de Tickets Personalizados",
@@ -158,7 +157,6 @@ return array(
     "allowed_files"             => "Tipo de Ficheiros de anexo permitidos",
 
     // Drafts
-    "draft_saved"               => "Rascunho guardado há :time",
     "save_draft"                => "Guardar Rascunho",
     "discard_draft"             => "Descartar Rascunho",
 
@@ -202,7 +200,6 @@ return array(
     "reply_options"             => "Opções de resposta",
     "send_email_to_users"       => "Enviar e-mail ao utilizador(es)",
     "send_email_to_operators"   => "Enviar e-mail ao operador(es)",
-    "back_to_grid"              => "Voltar à lista de Tickets",
     "take"                      => "Assumir",
     "take_ownership"            => "Assumir Titularidade",
     "pause_duetime"             => "Pausar Prazo",
@@ -264,7 +261,6 @@ return array(
     "no_departments_found"      => "No departments found. Click <a href=':route'>here</a> to create one.",
     "no_operators_found"        => "No operators found. Click <a href=':route'>here</a> to create one.",
     "change_priority"           => "Alterar Prioridade",
-    "add_tag"                   => "Adicionar Tag",
 
     "unlock"                    => "Desbloquear",
     "merged"                    => "Unido",
@@ -279,7 +275,6 @@ return array(
 
     "pause_duetime_desc"        => "If there is an active SLA plan on this ticket, pause the remaining due time until after the follow up date. The due time will only start again once a reply or note has been added to the ticket (including from the follow up).",
 
-    "add_cc"                    => "Adicionar CC",
     "reply_above_line"          => "Por favor responda acima desta linha",
 
     "email_settings"            => "Email Settings",
@@ -289,11 +284,6 @@ return array(
     "track_ticket_not_found"    => "Could not find ticket with ticket number and user email address entered.",
 
     "type_in_tags"              => "Escrever tags",
-
-    /*
-     * 2.0.1
-     */
-    "allowed_files_desc"        => "A list of file extensions, separated by the pipe | character, that are permitted as attachments. For example: txt|png|jpg. To allow all attachments, input: ?.*",
 
     /*
      * 2.0.2
@@ -310,14 +300,10 @@ return array(
     "default_reply_options_desc" => "Selecione as opções pré-definidas de resposta para serem definidas quando abre ou responde a um ticket. A opção ':reply_option' será selecionada com base na definição ':department_option' do departamento.",
     "associate_response_tag"    => "Associate canned response with a tag...",
     "canned_response_tags_desc" => "Add tags which may help finding a canned response when replying to a ticket.",
-    "append_ip_address"         => "Append IP Address",
-    "append_ip_address_desc"    => "Append the IP address of users to their messages when they are opening and replying to tickets from the frontend.",
     "unassign_operator"         => "Unassign Operator",
-    "remove_tag"                => "Remove Tag",
     "message_clipped"           => "[Message Clipped]",
     "view_entire_message"       => "View entire message",
     "no_custom_fields"          => "No custom fields found. Click <a href=':route'>here</a> to create one.",
-    "follow_up_active"          => "A <a class='view-followup' style='text-decoration: underline;'>follow up</a> is currently active on this ticket and will run <strong>:time</strong>.",
     "disable_user_email_replies" => "Disable User Email Replies",
 
     /*
@@ -423,7 +409,6 @@ return array(
     "forwarded_to"              => "Redirecionar para",
     "new_operator_reply"        => "Nova Resposta de Operador",
     "new_user_reply"            => "Nova Resposta de Utilizador",
-    "add_bcc"                   => "Adicionar BCC",
     "at_least_one_recipient"    => "Por favor especifique pelo menos um destinatário.",
     "forwarded_message"         => "---------- Mensagem Redirecionada ----------",
 
@@ -483,7 +468,6 @@ return array(
      * 2.6.0
      */
     "follow_ups"                => "Follow Ups",
-    "follow_up_multiple_active" => "Multiple <a class='view-followup' style='text-decoration: underline;'>follow ups</a> are currently active on this ticket and the next scheduled will run <strong>:time</strong>.",
     "follow_up_no_actions"      => "The follow up has no actions set, please confirm if you'd like to continue.",
     "status_after_running"      => "Estado após Executado",
     "older_messages"            => ":count older messages",
@@ -497,11 +481,6 @@ return array(
     "im_not_sure"               => "Não tenho a certeza",
     "auto_reply_detected"       => "Auto-reply detetado - não serão enviadas notificações para este utilizador(es).",
     "cc_desc"                   => "Poderá adicionar outras pessoas em CC neste ticket inserindo aqui os endereços de e-mail.",
-
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> was drafting a message",
 
     /*
      * 3.3.0
@@ -535,11 +514,8 @@ return array(
      * 4.1.0
      */
     "ticket_format_desc"        => "Can contain alphanumeric characters and special characters <code>-_.+!*,</code><br />The following variables may also be used: %S for a sequential number | %N for a random number | %L for a random letter<br />Use {number} to repeat <strong>only</strong> after %N or %L, e.g. %N{4} equates to 4 random numbers, %L{3} equates to 3 random letters<br />The following <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> Parameters prefixed with % Y,y,m,d,j,g,G,h,H,i,s",
-    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
     "check_spam"                => "Check Spam Rules",
     "check_spam_api_desc"       => "Block messages which match spam rules.",
-    "enable_throttling"         => "Enable Throttling",
-    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
     "captcha_desc"              => "Quando o Captcha deve ser mostrado aos utilizadores que abrem novos tickets.",
 
     /*
@@ -572,5 +548,84 @@ return array(
     "reject_duplicate_emails"   => "Reject Duplicate Emails",
     "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
     "duplicate_email_detected"  => "Duplicate email that has already been imported.",
+
+    /*
+     * 5.5.0
+     */
+    "rate_limiting"             => "Rate Limiting",
+    "max_requests"              => "Max Requests",
+    "decay_time"                => "Decay Time",
+    "exclude_addresses"         => "Exclude Addresses",
+    "exclude_addresses_desc"    => "A list of email addresses which are excluded from rate limits.",
+    "enable_throttling"         => "Enable Throttling",
+    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
+    "close_without_notify"      => "Close (without notification)",
+    "lock"                      => "Lock",
+    "pin"                       => "Pin",
+    "unpin"                     => "Unpin",
+
+    /*
+     * 5.6.0
+     */
+    "copy_to_new_filter"        => "Copy to New Filter",
+    "alias_support"             => "Alias Support",
+    "alias_support_desc"        => "Alias support analyses the recipient addresses of incoming emails to determine which department the email should be opened in. Disabling alias support will open all emails in the department they were fetched in irrespective of the recipient addresses.",
+
+    /*
+     * 5.7.0
+     */
+    "run_as_operator"           => "Run As",
+    "run_as_operator_desc"      => "Execute the following actions as the selected operator: \":actions\"",
+    "use_ticket_print_view"     => "Please use the dedicated print view to print this ticket. You can access it by clicking the 'Print' option in the ticket view.",
+    "save_feedback"             => "Save Feedback",
+    "ticket_opened_notification" => "New Ticket Opened",
+    "ticket_opened_notification_desc" => "Notifies you when a new user or internal ticket has been opened.",
+    "user_reply_notification"   => "User Ticket Reply Posted",
+    "user_reply_notification_desc" => "Notifies you when a user replies to an existing ticket.",
+    "operator_reply_notification" => "Operator Ticket Reply Posted",
+    "operator_reply_notification_desc" => "Notifies you when another operator replies to a ticket.",
+    "operator_note_notification" => "Operator Ticket Note Posted",
+    "operator_note_notification_desc" => "Notifies you when another operator posts a note on a ticket.",
+    "assigned_notification"     => "Assigned to Ticket",
+    "assigned_notification_desc" => "Notifies you when you are assigned to a ticket.",
+    "department_changed_notification" => "Department Changed",
+    "department_changed_notification_desc" => "Notifies you when a ticket changes department.",
+    "mention_notification"       => "Mentioned",
+    "mention_notification_desc" => "Notifies you when you are mentioned on a ticket.",
+    "mark_resolved_and_post_reply" => "Mark as Resolved & Post Reply",
+    "allowed_files_desc"        => "A list of file extensions, separated by the pipe | character, that are permitted as attachments. For example: txt|png|jpg. To allow all attachments, input: ?.*",
+
+    /*
+     * 6.0.0
+     */
+    "back_to_grid"              => "Voltar à lista de Tickets",
+    "stay_on_ticket"            => "Stay on Ticket",
+    "draft_saved"               => "Rascunho guardado há :time",
+    "drafting_message"          => "<strong>:name</strong> was drafting a message",
+    "feedback_notification"     => "Feedback Posted",
+    "feedback_notification_desc" => "Notifies you when feedback is posted on a ticket.",
+    "notify_feedback"           => "Feedback Notifications",
+    "notify_feedback_desc"      => "Specify which feedback responses from this form should trigger notifications to operators.",
+    "notify_all_feedback"       => "Notify on all feedback",
+    "notify_neutral_bad_feedback" => "Notify on neutral & bad feedback only",
+    "notify_bad_feedback"       => "Notify on bad feedback only",
+    "timeline"                  => "Timeline",
+    "filter_timeline"           => "Filter Timeline",
+    "timeline_replies"          => "Replies",
+    "timeline_forwards"         => "Forwards",
+    "timeline_customfields"     => "Custom field changes",
+    "timeline_sla"              => "SLA & due time changes",
+    "timeline_messages"         => "Message & note changes",
+    "timeline_userinfo"         => "User information & changes",
+    "timeline_assignment"       => "Assignment changes",
+    "timeline_state"            => "State changes",
+    "timeline_merging"          => "Merging, linking & splitting",
+    "max_requests_desc"         => "Set the maximum number of tokens available before a user is rate limited. Rate limiting works on a token system: creating a new ticket costs 3 tokens and replying to an existing ticket costs 1 token. The total number of tokens available resets after the decay time period.",
+    "decay_time_desc"           => "The number of minutes until the available tokens are reset.",
+
+    /*
+     * 6.1.0
+     */
+    "change_user"               => "Change User",
 
 );

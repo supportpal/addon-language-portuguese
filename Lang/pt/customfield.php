@@ -58,9 +58,4 @@ return array(
      * 2.3.1
      */
     "required_desc"             => "Se o campo deve ser preenchido. Para os tipos checkbox, checklist ou múltiplas opções, irá exigir que o utilizador selecione pelo menos uma opção.",
-
-    /*
-     * 3.3.0
-     */
-    "encrypted_value"           => "** ENCRIPTADO **",
 );
